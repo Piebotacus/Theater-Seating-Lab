@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=Theater
+comment0.text=\r\n\ \ Theater\ Seating\ Chart\ Lab\:\ Theater\r\n\r\n\ Purpose\:\ Uses\ a\ two-dimensional\ array\ to\ represent\ \r\n\ the\ seating\ arrangement\ of\ customers\ in\ a\ theater.\ The\ seats\ in\ the\ theater\ \r\n\ are\ in\ a\ rectangular\ arrangement\ of\ rows\ and\ columns.\r\n\r\n\ \ @author\ Tim\ Gallagher\r\n\ \ @author\ Kelly\ Schultz\ and\ Alyce\ Brady\r\n\ \ @version\ 12\ Feb\ 2021\r\n\ \r\n\ @author\ [your\ name]\r\n\ @author\ [with\ assistance\ from\ ...\ (including\ instructor/TAs)]\r\n\ @author\ [working\ side-by-side\ with\ ...]\r\n\ @version\ 12\ Feb\ 2021\ [you\ should\ change\ this]\r\n
+comment1.params=rows\ cols\ customerList
+comment1.target=Theater(int,\ int,\ java.util.ArrayList)
+comment1.text=\ \ Creates\ a\ Theater\ seating\ chart\ with\ the\ given\ number\ of\ rows\ and\ columns\ \r\n\ \ from\ the\ Customers\ in\ customerList.\ Empty\ seats\ are\ represented\ by\ null.\r\n\r\n\ \ @param\ rows\ the\ number\ of\ rows\ of\ seats\ in\ the\ theater\r\n\ \ @param\ cols\ the\ number\ of\ columns\ of\ seats\ in\ the\ theater\r\n\ \ @param\ customerList\ The\ customers\ to\ be\ given\ seats\ in\ the\ theater\r\n\r\n\ \ Precondition\:\ rows\ >\ 0;\ cols\ >\ 0;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ rows\ *\ cols\ >\=\ customerList.size()\r\n\ \ Postcondition\:\r\n\ \ \ \ -\ Customers\ appear\ in\ the\ seats\ in\ the\ same\ order\ as\ they\ appear\ in\r\n\ \ \ \ \ \ customerList,\ starting\ at\ seats[0][0],\ and\ seats\ is\ filled\ row\ by\ row\ from\r\n\ \ \ \ \ \ customerList,\ followed\ by\ any\ empty\ seats\ (represented\ by\ null).\r\n\ \ \ \ \ \ \ \ OR\r\n\ \ \ \ \ \ Customers\ are\ placed\ in\ the\ seats\ in\ random\ order,\ with\ empty\ seats\ null\r\n\ \ \ \ -\ customerList\ is\ unchanged.\r\n
+comment2.params=rows\ cols\ customerList\ cushion
+comment2.target=Theater(int,\ int,\ java.util.ArrayList,\ int)
+comment2.text=\ \ Creates\ a\ Theater\ seating\ chart\ with\ the\ given\ number\ of\ rows\ and\ columns\ \r\n\ \ from\ the\ Customers\ in\ customerList.\ Empty\ seats\ are\ represented\ by\ null.\r\n\r\n\ \ @param\ rows\ the\ number\ of\ rows\ of\ seats\ in\ the\ theater\r\n\ \ @param\ cols\ the\ number\ of\ columns\ of\ seats\ in\ the\ theater\r\n\ \ @param\ customerList\ The\ customers\ to\ be\ given\ seats\ in\ the\ theater\r\n\ \ @param\ cushion\ indicates\ how\ far\ apart\ customers\ should\ be\ seated\r\n\r\n\ \ Precondition\:\ rows\ >\ 0;\ cols\ >\ 0;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ rows\ *\ cols\ >\=\ customerList.size()\r\n\ \ Postcondition\:\r\n\ \ \ \ -\ Customers\ appear\ in\ the\ seats\ in\ the\ same\ order\ as\ they\ appear\ in\r\n\ \ \ \ \ \ customerList,\ starting\ at\ seats[0][0],\ and\ seats\ is\ filled\ row\ by\ row\ from\r\n\ \ \ \ \ \ customerList,\ followed\ by\ any\ empty\ seats\ (represented\ by\ null).\r\n\ \ \ \ \ \ \ \ OR\r\n\ \ \ \ \ \ Customers\ are\ placed\ in\ the\ seats\ in\ random\ order,\ with\ empty\ seats\ null\r\n\ \ \ \ -\ customerList\ is\ unchanged.\r\n
+comment3.params=row\ col
+comment3.target=boolean\ isSeatOccupied(int,\ int)
+comment3.text=\ This\ method\ should\ return\ true\ if\ the\ seat\ is\ occupied,\ false\ otherwise.\r\n
+comment4.params=
+comment4.target=int\ findMostOccupiedRow()
+comment4.text=\ This\ method\ should\ return\ the\ row\ number\ with\ the\ greatest\ number\ of\ occupied\ seats\r\n
+comment5.params=
+comment5.target=Customer\ getTallestCustomer()
+comment5.text=\ This\ method\ should\ return\ the\ tallest\ customer\ in\ the\ theater\r\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getCustomersToBeMoved()
+comment6.text=\ This\ method\ should\ return\ a\ list\ of\ Customers\ who\ need\ to\ have\ their\ seats\ moved\r\n\ because\ there\ is\ someone\ more\ than\ 3\ inches\ taller\ than\ them\ sitting\ directly\r\n\ in\ front\ of\ them\ (one\ row\ closer,\ but\ in\ the\ same\ seat).\r\n\r\n\ This\ method\ does\ not\ actually\ change\ any\ seats,\ but\ constructs\ and\ returns\ a\ NEW\ \r\n\ arrayList\ filled\ with\ customers\ who\ have\ someone\ sitting\ in\ front\ of\ them\ that\ \r\n\ is\ more\ than\ 3\ inches\ taller\ than\ they\ are.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\ This\ method\ returns\ a\ String\ that\ can\ be\ used\ to\ print\ out\ the\ contents\ \r\n\ of\ the\ seats\ in\ the\ theater\r\n
+comment8.params=
+comment8.target=void\ displayTheaterSeatingChart()
+comment8.text=\ This\ method\ creates\ a\ grid\ representation\ of\ the\ contents\ \r\n\ of\ the\ seats\ in\ the\ theater\r\n
+numComments=9

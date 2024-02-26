@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TheaterRunner
+comment0.text=\r\n\ \ Theater\ Seating\ Chart\ Lab\:<br>\r\n\r\n\ Purpose\:\ This\ program\ tests\ the\ Theater\ class\ by\ making\ an\ ArrayList\ of\ \r\n\ Customers,\ making\ a\ Theater\ object,\ calling\ the\ methods\ &\ \r\n\ printing\ the\ results.\ It\ will\ also\ display\ the\ results\ graphically\r\n\r\n\ \ @author\ Tim\ Gallagher\r\n\ \ @author\ Kelly\ Schultz\ and\ Alyce\ Brady\r\n\ \ @version\ 12\ Feb\ 2021\r\n\ \r\n\ @author\ [your\ name]\r\n\ @author\ [with\ assistance\ from\ ...\ (including\ instructor/TAs)]\r\n\ @author\ [working\ side-by-side\ with\ ...]\r\n\ @version\ 12\ Feb\ 2021\ [you\ should\ change\ this]\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
